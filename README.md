@@ -1,5 +1,8 @@
 # awsp
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Works with Oh My Zsh](https://img.shields.io/badge/Oh%20My%20Zsh-plugin-blue?logo=zsh)](https://ohmyz.sh/)
+
 Switch between AWS profiles interactively using [fzf](https://github.com/junegunn/fzf), or set one directly by name. Automatically triggers `aws sso login` if credentials are expired.
 
 ![demo](demo.gif)
@@ -102,3 +105,7 @@ region = eu-west-1
 ```
 
 For non-SSO profiles, use `aws configure --profile my-profile`. See the [AWS CLI configuration docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) for the full reference.
+
+---
+
+If you find this useful, give it a ⭐
