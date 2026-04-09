@@ -61,7 +61,7 @@ Clone the repo and add a source line to `~/.bashrc`:
 
 ```sh
 git clone https://github.com/chris-code-lab/awsp ~/.awsp
-echo 'source ~/.awsp/awsp.bash' >> ~/.bashrc && source ~/.bashrc
+echo 'source ~/.awsp/awsp.sh' >> ~/.bashrc && source ~/.bashrc
 ```
 
 To update later: `git -C ~/.awsp pull`
